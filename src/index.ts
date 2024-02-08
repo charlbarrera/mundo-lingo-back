@@ -98,5 +98,5 @@ app.post('/api/read-text-from-image', async (req, res) => {
 });
 
 app.listen(8080, () => {
-    console.log('server started');
+    console.log('server started at: ' + 8080);
 });
